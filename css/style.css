@@ -1,0 +1,131 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+.body {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2;
+}
+
+.naglowek {
+  color: rgb(107, 4, 25);
+  background-color: rgb(197, 216, 151, 0.966);
+  text-align: center;
+}
+
+.zawod {
+  text-align: center;
+  background-color: rgb(155, 125, 151, 0.555);
+}
+
+.tekst {
+  color: rgba(5, 73, 11, 0.966);
+  text-align: center;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+}
+
+.photoButtonElement {
+  display: block;
+  margin: 0 auto;
+}
+
+.songoSSJ {
+  height: 250px;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.songoDuzy {
+  height: 250px;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.songoMaly {
+  height: 250px;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.Hide {
+  display: none;
+}
+
+.table {
+  font-family: "Lato", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tableCell {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.tableHeader {
+  background-color: green;
+  color: white;
+  font-weight: normal;
+}
+
+.tableRow:hover {
+  background: lightgrey;
+}
+
+.link {
+  margin: 10px;
+  padding: 10px 10px;
+}
+
+.link:hover {
+  color: red;
+}
+
+.navigation {
+  display: flex;
+  width: 500px;
+  border: 5px dotted red;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.theme {
+  text-align: center;
+  margin: 20px;
+}
+
+.theme__button {
+  background-color: transparent;
+  border: 1px solid gray;
+  cursor: pointer;
+  padding: 7px;
+  text-transform: uppercase;
+}
+
+.theme__button:hover {
+  box-shadow: 2px 2px 2px 0 rgba(99, 77, 66)
+}
+
+.nightMode {
+  background-color: rgba(215, 215, 215);
+}
+
+.footer {
+  text-align: center;
+  font-weight: normal;
+}

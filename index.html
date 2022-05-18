@@ -1,0 +1,140 @@
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <div class="theme">
+        <button class="theme__button">Ciemny motyw</button>
+    </div>
+    <header>
+        <h1 class="naglowek"> Robert Grzyb</h1>
+        <h2 class="navigation">
+            <a class="link" href="#o-mnie">O mnie</a>
+            <a class="link" href="#lista-ogladanych-filmow">Lista oglądanych filmów</a>
+        </h2>
+    </header>
+    <p>
+    <div class="container">
+        <form class="form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">
+                    Dane osobowe
+                </legend>
+                <p>
+                    <label>
+                        <span class="form__labelText">
+                            Imię:
+                        </span>
+                        <input class="form__field" name="firstName" required>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">
+                            Nazwisko:
+                        </span>
+                        <input class="form__field" name="lastName" required>
+                    </label>
+                </p>
+            </fieldset>
+            <p>
+                <button class="form__buttonDane" type="reset">Wyślij!</button>
+            </p>
+        </form>
+    </div>
+    <!-- Okej -->
+
+    <form>
+        <fieldset>
+            <legend>Twoje dane</legend>
+            <p>
+                <label>Twój wzrost: <input class="js-height" type="number" min="1" step="any" value="168"></label>
+            </p>
+            <p>
+                <label>Twoja waga: <input type="number" min="1" step="any"></label>
+            </p>
+        </fieldset>
+        <p>
+            <button>Policz BMI</button>
+        </p>
+    </form>
+    <p>
+        Twoje BMI wynosi: <strong></strong>
+    </p>
+
+    <section>
+        <img class="songoSSJ"
+            src="https://data4.cupsell.pl/upload/generator/179656/640x420/3710006_print_1.png?resize=max_sizes&key=55f9a22768eed085006592c1174c0235"
+            alt="Songo SSJ">
+        <p>
+            <button class="button">Usuń zdjęcie</button>
+        </p>
+        <h2 id="o-mnie" class="zawod">Technik logistyk</h2>
+        </p>
+        <h3 class="tekst"> Siemka! Zawód wyuczony to technik logistyk, obecnie pracuje w stolarni, w międzyczasie
+            studiowałem informatykę zaocznie, jako że studia nie wniosły żadnych perspektyw do mojego życia, a bardzo
+            lubię komputery, nowinki technologiczne oraz zawsze ciekawiło mnie, jak wyglądają strony internetowe "od
+            kuchni" - postanowiłem rozpocząć kurs frontend. Trzymajcie kciuki! </h3>
+        <img class="songoDuzy Hide" src="https://www.wykop.pl/cdn/c3201142/comment_lZo3Fdsh97iWJISYJOOG2c5rz4O4XDNf.jpg"
+            alt="Songo duży">
+        <img class="songoMaly" src="https://sm.ign.com/ign_pl/screenshot/default/72a_mt87.jpg" alt="Songo mały">
+        <p>
+            <button class="photoButtonElement">Inne zdjęcie</button>
+        </p>
+    </section>
+    <section id="lista-ogladanych-filmow">
+        <table class="table">
+            <caption>Lista oglądanych filmów</caption>
+            <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="col">Imię</th>
+                <th class="tableCell tableHeader" scope="col">Tytuł filmu</th>
+                <th class="tableCell tableHeader" scope="col">Reżyser</th>
+                <th class="tableCell tableHeader" scope="col">Rok</th>
+            </tr>
+            <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">Robert</th>
+                <td class="tableCell">Szybcy i wściekli 6</td>
+                <td class="tableCell">Justin Lin</td>
+                <td class="tableCell">2013</td>
+            </tr>
+            <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">Patrycja</th>
+                <td class="tableCell">Uprowadzona 2</td>
+                <td class="tableCell">Olivier Megaton</td>
+                <td class="tableCell">2012</td>
+            </tr>
+            <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="col">Dawid</th>
+                <td class="tableCell">Telefon</td>
+                <td class="tableCell">Joel Schumacher</td>
+                <td class="tableCell">2002</td>
+            </tr>
+            <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">Tomasz</th>
+                <td class="tableCell">Częstotliwość</td>
+                <td class="tableCell">Gregory Hoblita</td>
+                <td class="tableCell">2000</td>
+            </tr>
+        </table>
+        <p>
+        <h3 class="footer">Pozdrawiam!</h3>
+    </section>
+</body>
+
+
+</html>
