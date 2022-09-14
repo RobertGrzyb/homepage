@@ -14,7 +14,7 @@ console.log(double(40));
 console.log(double(40));
 
 heightElement.addEventListener("input", () => {
-  console.log(`Aktualny wzrost: ${heightElement.value}`);
+  console.log(`Aktualny wzrost i waga małego człowieczka: ${heightElement.value}`);
 });
 
 button.addEventListener("click", () => {
