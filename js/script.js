@@ -5,6 +5,14 @@ let button = document.querySelector(".button");
 let photoButtonElement = document.querySelector(".photoButtonElement");
 let heightElement = document.querySelector(".js-height");
 
+function double(number) {
+  return number * 2;
+}
+
+console.log(double(5));
+console.log(double(40));
+console.log(double(40));
+
 heightElement.addEventListener("input", () => {
   console.log(`Aktualny wzrost: ${heightElement.value}`);
 });
