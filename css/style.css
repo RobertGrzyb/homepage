@@ -30,8 +30,11 @@ html {
 }
 
 .button {
-  display: block;
-  margin: 0 auto;
+  margin: 0 437;
+}
+
+.hidden {
+  display: none;
 }
 
 .photoButtonElement {
@@ -40,10 +43,7 @@ html {
 }
 
 .songoSSJ {
-  height: 250px;
-  width: 300px;
-  display: block;
-  margin: 0 auto;
+  margin: 0 350;
 }
 
 .songoDuzy {
@@ -68,7 +68,9 @@ html {
   font-family: "Lato", sans-serif;
   border-collapse: collapse;
   width: 100%;
+  color: rgb(255, 255, 255);
 }
+
 
 .tableCell {
   border: 1px solid #ccc;
@@ -97,7 +99,7 @@ html {
 
 .navigation {
   display: flex;
-  width: 500px;
+  width: 520px;
   border: 5px dotted red;
   border-radius: 20px;
   margin: 0 auto;
@@ -111,10 +113,11 @@ html {
 
 .theme__button {
   background-color: transparent;
-  border: 1px solid gray;
+  border: 3px solid rgb(8, 1, 1);
   cursor: pointer;
   padding: 7px;
   text-transform: uppercase;
+  color: white;
 }
 
 .theme__button:hover {
