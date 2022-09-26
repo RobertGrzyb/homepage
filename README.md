@@ -1,4 +1,4 @@
-# Robert Grzyb - moja pierwsza strona
+# Robert Grzyb - My first website
 
 ## Demo
 
