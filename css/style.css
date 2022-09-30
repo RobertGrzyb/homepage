@@ -30,39 +30,48 @@ html {
 }
 
 .button {
-  margin: 0 437;
-}
-
-.hidden {
-  display: none;
+  margin: 20 auto;
+  display: block;
 }
 
 .photoButtonElement {
+  margin: 20 auto;
   display: block;
-  margin: 0 auto;
 }
 
-.songoSSJ {
-  margin: 0 350;
+.selfie {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  border-style: solid;
+  margin: 20 auto;
+  display: block;
 }
 
 .songoDuzy {
   height: 250px;
   width: 300px;
   display: block;
-  margin: 0 auto;
+  margin: auto;
+  border-radius: 15%;
 }
 
 .songoMaly {
   height: 250px;
   width: 300px;
   display: block;
-  margin: 0 auto;
+  margin: 20 auto;
+  border-radius: 15%;
 }
 
-.Hide {
+.hide {
   display: none;
 }
+
+.hidden {
+  display: none;
+}
+
 
 .table {
   font-family: "Lato", sans-serif;
@@ -70,7 +79,6 @@ html {
   width: 100%;
   color: rgb(255, 255, 255);
 }
-
 
 .tableCell {
   border: 1px solid #ccc;
@@ -125,10 +133,11 @@ html {
 }
 
 .nightMode {
-  background-color: rgba(215, 215, 215);
+  background-color: rgba(44, 40, 40, 0.416);
 }
 
 .footer {
   text-align: center;
   font-weight: normal;
+  color: white;
 }
