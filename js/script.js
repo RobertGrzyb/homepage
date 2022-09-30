@@ -1,25 +1,17 @@
-let songoSSJ = document.querySelector(".js-songoSSJ");
+let selfie = document.querySelector(".js-selfie");
 let songoDuzy = document.querySelector(".songoDuzy");
 let songoMaly = document.querySelector(".songoMaly");
 let button = document.querySelector(".js-button");
 let photoButtonElement = document.querySelector(".photoButtonElement");
 
-function double(number) {
-  return number * 2;
-}
-
-console.log(double(5));
-console.log(double(40));
-console.log(double(40));
-
 button.addEventListener("click", () => {
-  songoSSJ.classList.toggle("hidden");
-  button.innerText = songoSSJ.classList.contains("hidden") ? "Pokaż zdjęcie" : "Ukryj zdjęcie";
+  selfie.classList.toggle("hidden");
+  button.innerText = selfie.classList.contains("hidden") ? "Pokaż zdjęcie" : "Ukryj zdjęcie";
 });
 
 photoButtonElement.addEventListener("click", () => {
-  songoMaly.classList.toggle("Hide");
-  songoDuzy.classList.toggle("Hide");
+  songoMaly.classList.toggle("hide");
+  songoDuzy.classList.toggle("hide");
   
 });
 
